@@ -1,8 +1,7 @@
 
 
 def using_push(array, string)
-  new_ele = string
-  array.push(new_ele)
+  array.push(string)
 end
 
 
