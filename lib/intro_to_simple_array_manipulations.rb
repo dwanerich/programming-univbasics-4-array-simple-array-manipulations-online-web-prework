@@ -14,22 +14,22 @@ end
 
 
 def using_pop(array)
-  p array.pop
+  array.pop
 end
 
 
 def pop_with_args(array, 2)
-  p array.pop[2]
+  array.pop[2]
 end
 
 
 def using_shift(array)
-  p array.shift
+  array.shift
 end
 
 
 def shift_with_args(array, 2)
-  p array.shift[2]
+  array.shift[2]
 end
 
 
@@ -39,7 +39,7 @@ end
 
 def using_concat(array1, array2)
   array2.concat = (array1 + array2)
-  p array2
+  array2
 end
 
 
@@ -47,7 +47,7 @@ end
 
 
 def using_insert(array, element)
-  p array.insert[4] = element
+  array.insert[4] = element
 end
 
 
@@ -57,7 +57,7 @@ end
 
 
 def using_flatten(array)
-    p array.flatten
+    array.flatten
   end
 
 
