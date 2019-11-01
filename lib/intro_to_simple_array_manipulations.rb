@@ -11,8 +11,8 @@ end
 
 
 def using_unshift(array, string)
-  new_ray = string
-  array.unshift(new_ray)
+  new_ele = string
+  array.unshift(new_ele)
 end
 
 
