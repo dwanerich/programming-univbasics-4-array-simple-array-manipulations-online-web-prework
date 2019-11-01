@@ -6,18 +6,10 @@ def using_push(array, string)
 end
 
 
-
-
-
-
 def using_unshift(array, string)
   new_ele = string
   array.unshift(new_ele)
 end
-
-
-
-
 
 
 
@@ -26,22 +18,14 @@ def using_pop(array)
 end
 
 
-
-
-
 def pop_with_args(array, 2)
   p array.pop[2]
 end
 
 
-
-
 def using_shift(array)
   p array.shift
 end
-
-
-
 
 
 def shift_with_args(array, 2)
@@ -67,16 +51,9 @@ def using_insert(array, element)
 end
 
 
-
-
-
 def using_uniq(array)
   p array.uniq
 end
-
-
-
-
 
 
 def using_flatten(array)
@@ -84,18 +61,10 @@ def using_flatten(array)
   end
 
 
-
-
-
-
 def using_delete(array, string)
     array.delete(string)
     
 end
-
-
-
-
 
 
 def using_delete_at(array, 2)
